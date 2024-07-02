@@ -1,0 +1,111 @@
+[
+  {
+    "auth": {
+      "accessor": "hmac-sha256:2adebe8457bc22297f3b7cca61bbc47a457859df6d1866065fc12ece5416e414",
+      "client_token": "hmac-sha256:b3f7b430202e3fc4e7edca1a055d28bee87e6a19278ddc72b3968968f47a45be",
+      "display_name": "token",
+      "policies": [
+        "root"
+      ],
+      "policy_results": {
+        "allowed": true,
+        "granting_policies": [
+          {
+            "name": "root",
+            "namespace_id": "root",
+            "type": "acl"
+          }
+        ]
+      },
+      "token_policies": [
+        "root"
+      ],
+      "token_issue_time": "2024-07-02T15:05:57+01:00",
+      "token_type": "service"
+    },
+    "request": {
+      "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+      "client_token": "hmac-sha256:b3f7b430202e3fc4e7edca1a055d28bee87e6a19278ddc72b3968968f47a45be",
+      "client_token_accessor": "hmac-sha256:2adebe8457bc22297f3b7cca61bbc47a457859df6d1866065fc12ece5416e414",
+      "id": "a9f84f6a-9c16-c9d2-d369-a2f5271ad9a7",
+      "mount_class": "secret",
+      "mount_point": "secret/",
+      "mount_type": "kv",
+      "mount_running_version": "v0.17.0+builtin",
+      "namespace": {
+        "id": "root"
+      },
+      "operation": "read",
+      "path": "secret/data/foo",
+      "remote_address": "127.0.0.1",
+      "remote_port": 60114
+    },
+    "time": "2024-07-02T14:50:49.592806Z",
+    "type": "request"
+  },
+  {
+    "auth": {
+      "accessor": "hmac-sha256:2adebe8457bc22297f3b7cca61bbc47a457859df6d1866065fc12ece5416e414",
+      "client_token": "hmac-sha256:b3f7b430202e3fc4e7edca1a055d28bee87e6a19278ddc72b3968968f47a45be",
+      "display_name": "token",
+      "policies": [
+        "root"
+      ],
+      "policy_results": {
+        "allowed": true,
+        "granting_policies": [
+          {
+            "name": "root",
+            "namespace_id": "root",
+            "type": "acl"
+          }
+        ]
+      },
+      "token_policies": [
+        "root"
+      ],
+      "token_issue_time": "2024-07-02T15:05:57+01:00",
+      "token_type": "service"
+    },
+    "time": "2024-07-02T14:50:49.593476Z",
+    "type": "response",
+    "request": {
+      "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+      "client_token": "hmac-sha256:b3f7b430202e3fc4e7edca1a055d28bee87e6a19278ddc72b3968968f47a45be",
+      "client_token_accessor": "hmac-sha256:2adebe8457bc22297f3b7cca61bbc47a457859df6d1866065fc12ece5416e414",
+      "id": "a9f84f6a-9c16-c9d2-d369-a2f5271ad9a7",
+      "mount_accessor": "kv_d546493f",
+      "mount_class": "secret",
+      "mount_point": "secret/",
+      "mount_type": "kv",
+      "mount_running_version": "v0.17.0+builtin",
+      "namespace": {
+        "id": "root"
+      },
+      "operation": "read",
+      "path": "secret/data/foo",
+      "remote_address": "127.0.0.1",
+      "remote_port": 60114
+    },
+    "response": {
+      "data": {
+        "data": {
+          "password": "hmac-sha256:3e0529a97550ee6a53b4f1e2b6fa1146db0c356405c950662356045faa2f3bee",
+          "username": "hmac-sha256:019c66cf5849367d04348e364ce21819446d31db1a973ca65f7bc638c0aec98e"
+        },
+        "metadata": {
+          "created_time": "hmac-sha256:6ff4541c5bb082056c6d15300e5c3293cc1cfdfa0c81058bd4b38f7c099ac2d2",
+          "custom_metadata": null,
+          "deletion_time": "hmac-sha256:e561c42325f75ca13c04b4922e9c6476a1fe800bfa43e25acedc51d949312f8e",
+          "destroyed": false,
+          "version": 21
+        }
+      },
+      "mount_accessor": "kv_d546493f",
+      "mount_class": "secret",
+      "mount_point": "secret/",
+      "mount_running_plugin_version": "v0.17.0+builtin",
+      "mount_type": "kv"
+    }
+  }
+]
